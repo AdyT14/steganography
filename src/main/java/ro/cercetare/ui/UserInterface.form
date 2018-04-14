@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ro.cercetare.ui.UserInterface">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="500"/>
+    </constraints>
+    <properties>
+      <minimumSize width="500" height="400"/>
+      <preferredSize width="800" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="2bcf9" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="300"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <minimumSize width="82" height="500"/>
+          <preferredSize width="500" height="600"/>
+          <tabLayoutPolicy value="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="e6679" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Encode"/>
+            </constraints>
+            <properties>
+              <inheritsPopupMenu value="false"/>
+              <minimumSize width="-1" height="-1"/>
+              <preferredSize width="-1" height="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="80538" class="javax.swing.JButton" binding="imageFileButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="7" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <margin top="2" left="14" bottom="2" right="14"/>
+                  <text value="IMAGE FILE"/>
+                </properties>
+              </component>
+              <component id="7412b" class="javax.swing.JTextField" binding="imageFilePathTextField" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <alignmentY value="0.5"/>
+                  <background color="-855310"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <focusable value="false"/>
+                  <font size="14"/>
+                  <margin top="5" left="10" bottom="5" right="10"/>
+                  <text value=""/>
+                  <toolTipText value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+              <scrollpane id="2dcc6">
+                <constraints>
+                  <grid row="1" column="1" row-span="9" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="2" height="2"/>
+                    <preferred-size width="300" height="200"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="fe671" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <font size="16" style="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="bc92a" class="javax.swing.JTextField" binding="messageFilePathTextField" default-binding="true">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-855310"/>
+                  <editable value="true"/>
+                  <font size="14"/>
+                  <margin top="5" left="10" bottom="5" right="10"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="26595" class="javax.swing.JButton" binding="ORCHOOSEFILEButton" default-binding="true">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="OR CHOOSE FILE"/>
+                </properties>
+              </component>
+              <component id="82836" class="javax.swing.JButton" binding="createNewRSAKeyButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <label value="New RSA key&#10;"/>
+                  <text value="New RSA key&#10;"/>
+                </properties>
+              </component>
+              <component id="58ed6" class="javax.swing.JButton" binding="ENCODEButton" default-binding="true">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="ENCODE"/>
+                </properties>
+              </component>
+              <component id="83150" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="100" height="20"/>
+                    <maximum-size width="100" height="20"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="5fb7b" class="javax.swing.JButton" binding="RSAPublicKeyButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="RSA public key"/>
+                </properties>
+              </component>
+              <component id="acd80" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="100" height="20"/>
+                    <maximum-size width="100" height="20"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="cf22a" class="javax.swing.JCheckBox" binding="RSAPublicKeyCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <opaque value="true"/>
+                  <selected value="true"/>
+                  <text value="RSA public key"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="4ac21" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Decode"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bf25c" class="javax.swing.JButton" binding="IMAGEFILEButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="IMAGE FILE"/>
+                </properties>
+              </component>
+              <component id="7f09f" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-855310"/>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <margin top="5" left="10" bottom="5" right="10"/>
+                </properties>
+              </component>
+              <scrollpane id="e4d91">
+                <constraints>
+                  <grid row="1" column="1" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="71810" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="16"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="216d7" class="javax.swing.JButton" binding="RSAPRIVATEKEYButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="14"/>
+                  <text value="RSA PRIVATE KEY"/>
+                </properties>
+              </component>
+              <component id="53e81" class="javax.swing.JCheckBox" binding="RSAPRIVATEKEYCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <selected value="true"/>
+                  <text value="RSA PRIVATE KEY"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="214d2" class="javax.swing.JButton" binding="DECODEButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="DECODE"/>
+                </properties>
+              </component>
+              <component id="c7e89" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="50" left="10" bottom="50" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
